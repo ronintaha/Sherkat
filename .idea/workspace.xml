@@ -15,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mohammad" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -87,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651386592323</updated>
-      <workItem from="1651386594916" duration="15966000" />
+      <workItem from="1651386594916" duration="16317000" />
     </task>
     <task id="LOCAL-00001" summary="comitt">
       <created>1651404565249</created>
@@ -96,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651404565249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1651404887203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651404887203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comitt" />
-    <option name="LAST_COMMIT_MESSAGE" value="comitt" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
