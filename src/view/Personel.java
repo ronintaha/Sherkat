@@ -51,4 +51,18 @@ public class Personel {
             }
         }
     }
+
+    public void leave(){
+        Scanner scanner = new Scanner(System.in);
+        int roz =scanner.nextInt();
+        switch (roz){
+            case 1 :
+                System.out.println("morekhasi shoma barai yekom sabt shod");
+
+        }
+
+
+
+
+    }
 }
