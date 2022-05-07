@@ -1,30 +1,41 @@
 package data;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class PersonellData {
-    public static String nameP ;
-    public static String nameS ;
-    public static int id ;
-    public static int age;
-//    public PersonellData(){
-//        this.nameP=nameP;
-//        this.nameS=nameS;
-//        this.id = id;
-//        this.age= age;
-//        List<PersonellData> list1 = new ArrayList<>();
-//        list1.add(this);
+  private String firstName ;
+  private String lastName ;
+  private String id ;
 
-//    }
-
-    public static void sabt(){
-        List<String> list1 = new ArrayList<>();
-        list1.add(nameP);
-        list1.add(nameS);
-        list1.add(String.valueOf(id));
-        list1.add(String.valueOf(age));
-
+    public String getFirstName() {
+        return firstName;
     }
 
+    public String setFirstName(String firstName) {
+        this.firstName = firstName;
+//        return null;
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String setLastName(String lastName) {
+        this.lastName = lastName;
+//        return null;
+        return lastName;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String setId(String id) {
+        this.id = id;
+//        return null;
+        return id;
+    }
+    public String toString(){
+        return "Personel [personel id= "+id+" Firstname= " +firstName+" lastname= "+lastName+"]";
+    }
+    
 }

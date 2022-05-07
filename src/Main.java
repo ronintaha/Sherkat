@@ -1,14 +1,21 @@
 import view.Menu1;
+import view.Personel;
 
-import static data.PersonellData.sabt;
-import static view.Menu1.personell;
-import static view.Menu2.search;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 
 public class Main {
 
     public static void main(String[] args) {
+        List<String> list = Collections.synchronizedList(new ArrayList<String>());
+        Personel personel = new Personel(list);
 
-        personell();
-        search();
+        personel.inputP();
+        personel.search();
+
+
+
     }
 }
